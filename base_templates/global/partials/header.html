@@ -1,0 +1,14 @@
+<header class="main-header-container">
+    <div class="main-header container">
+        <h1>
+            <a class="main-logo" href="{% url "recipes:home-workout" %}">
+                <i class="fa-solid fa-utensils"></i>
+                <span class="main-logo-text">recipes</span>
+            </a>
+        </h1>
+        <nav class="auth-nav">
+            <a href="{% url 'authors:login' %}" class="auth-link">Login</a>
+            <a href="{% url 'authors:register' %}" class="auth-link">Registrar</a>
+        </nav>
+    </div>
+</header>
