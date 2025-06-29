@@ -155,6 +155,7 @@ def dashboard_recipe_delete(request):
         is_published=False,
         author=request.user,
         pk=id,
+        category = 'geral',
     ).first()
     if not recipe:
         raise Http404()
