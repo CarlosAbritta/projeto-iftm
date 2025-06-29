@@ -12,3 +12,4 @@ pytest-django==4.11.1
 python-dotenv==1.1.1
 sqlparse==0.5.3
 tzdata==2025.2
+whitenoise==6.9.0
